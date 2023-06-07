@@ -1,0 +1,29 @@
+会议议题：
+本次月度会议是周三早上10点（北京时间）/ 周二晚7点（美西时间）。
+ 
+本次月度会议主题：
+请沈慧海介绍OpenHarmony的WEB Engine/ Browser相关技术
+讨论下一代WEB发展方向相关议题，包括探讨Open Wallet在OpenHarmony上的实现等。
+
+会议纪要：
+
+参加人员：沈慧海，张春辉，蒋晓黎，上海海思吴迪，胡凯旋，Liyi，Wenjing Chu
+ 
+谢谢沈慧海对WEB技术发展的历史和对OpenHarmony下一代WEB3技术的发展的精彩介绍。
+ 
+会议纪要：
+沈慧海对WEB技术发展的历史做了介绍，包括WEB1，WEB2，MiniApp/QuickApp，PWA等
+介绍了WEB Stack的层次：ENGINE层/WEBVIEW，Framework层(React, Angular, Vue etc)，MiniApps应用层
+现在的fragmentation 状态
+WEB3 的定义、技术思路和方向还不太明然
+后续OpenHarmony web方向考虑采用Framework上创新，比较快可行，以后再追求于新的W3C标准对齐（W3C比较慢）
+新的安全标准：WebAuthn/FIDO2，Web Payment
+Wenjing 提到了基于MiniApp Framework来开发OpenWallet的项目，可以与OpenHarmony WEB 发展一起协同
+Wallet包涵了WEB3的很多新功能包括新的安全framework和诸多digital objects包括支付、身份证件、数字资产、票据、钥匙等等
+希望与OpenHarmony的WEB3设想对齐。
+张春辉问到针对OS安全支持的需求。Wenjing提到新的安全模式需要新的OS支持。
+新的Wallet功能例子： SD-JWT，MDoc/mDL，VC
+更深一步的Capability based安全需要才能满足Wallet的需求 – 模块化的Wallet可成为WEB3 Engine/Framework的重要部分。
+下一步：慧海后续会联系相关OpenHarmony团队来一起沟通讨论
+如果有其他对OpenWallet有兴趣的公司或组织，请介绍给Wenjing。
+
