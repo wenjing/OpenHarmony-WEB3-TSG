@@ -1,0 +1,49 @@
+2023年3月1日 Web3 TSG Call Minutes请见如下：
+ 
+Attendees: Wenjing Chu，赵鹏，Yue Chen，陈川（中大），张春辉，郑黎方（寰宇信
+任），赵锋，李安琪
+ 
+一、Wenjing介绍Open Wallet Foundation
+Wenjing：Open Wallet Foundation上周刚成立，很多公司希望加入，现在有四个
+Primary Member。Foundation目标是打造一个通用性的钱包，一个角度是作为一个Web
+browser的一部分，可以用于IoT等多场景；另一个角度是钱包里面可以有各类数据，例
+如信用卡支付，支持NFT等功能，有Login等功能。总的方向是把wallet看成browser一
+样，是digital service服务的一个关键软件。这类新的wallet，个人关键数据在自己
+手里，不在server端。Foundation工作也能做一些类似Browser的事情，在标准方面已
+经有一些工作积累，开源层面主要是Blink，以及在Browser层面的适配。Foundation要
+产出的是软件/Code。Mission是汇聚相关机构，做开放的安全的兼容的电子钱包产品，
+保证代码和标准是一致的。Foundation在Linux Foundation旗下，和其他组织不一样的
+一个是Governing Board，确保合规。下周开始相关工作，目前已经有八九个项目正在
+考虑当中，过一段时间会review，有mailing list等可以跟进讨论。现在是一个好的时
+机来推动，涌现出很多新的场景和应用。原来只有iOS和安卓两个大平台，现在可以有
+更多操作系统以外的场景供开发人员使用，安卓对OH的最大的挑战是不同的service如
+何通过ID链接到一起。关于隐私，一个新的点是，wallet可以保存自己的数据，而不是
+server替你保存。有一个地方保存自己的钥匙，可以在各种地方使用。也可以支持各类
+AI agent，分清agent和人之间的关系，数据给到谁，这种新场景下传统的PW的方式就
+越来越不合适。
+Angel：看起来这个Foundation所希望打造的钱包形态和W3C 所做的payment request
+API和Secure Payment Confirmation等标准不太一样，payment request API和Secure
+Payment Confirmation是做以浏览器为UA的，Foundation希望做的钱包范围更大。
+Wenjing：是这样
+郑黎方：Opensource这一层会有很多的代码模块，还匹配不同的应用场景和技术路线？
+Wenjing：是的，希望wallet像一个container，可以放进去各种标准支持的卡（公交卡
+等）；软件设计得好的话，可以是模块化的，共开发者选择。不是一定要支持VC，而是
+交给市场去定。
+ 
+二、赵锋介绍物联网平台应用案例
+这个物联网平台给设备提供一个IoT平台，提供设备管理的一些功能，例如注册、状态
+预警，以及一些运维方面的功能。在此基础上，也支持数据分析，内容下发等能力。是
+一个中心化的设置。针对煤炭和电力等不同行业做定制，这里展示一个实际的应用的矿
+山管理平台。有权限管理，用户身份认证等功能。面临的一个问题是，数据传输过程中
+的安全，以及大量数据接入时的性能问题，例如钱包等中心化的设置，大量并发的时候
+如何处理，如何适配真正的交互场景。门禁和地铁闸机等，接入设备两打的时候，如何
+处理，这些都需要及时相应，例如矿山有渗水或者瓦斯异常都需要非常及时的相应。现
+在尝试的解决方案是利用安全协议HTTPS等方式，以及限流等，想知道还有机制上有什
+么更好的处理方式，也需要搞清楚移动钱包对server短的适配诉求，例如权限控制、高
+并发等。
+Wenjing：VC的好处是，发证的过程是使用是分开的，例如地铁刷卡，需要后端系统验
+证。
+ 
+三、视联网系统中的身份认证技术探讨
+[关于基于AC和基于DID的身份认证的解决方案的介绍，详见slides]
+
