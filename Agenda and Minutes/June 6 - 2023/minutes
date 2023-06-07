@@ -1,0 +1,43 @@
+参加人员：
+ 
+Angel Li, Wenjing Chu, 赵峰，郑黎方，PolyuYu（罗教授替代），沈惠海，张春辉，kxhuf
+看看有没有遗漏
+
+这次会议的简单纪要，请大家提补充和修正意见：
+ 
+- Angel Li 介绍了W3C的WE B前沿技术论坛在北京的活动https://www.w3.org/2023/06/china-web-forum/
+- Angeli Li分享了精彩的WEB3或WEB3.0的概念的最初提出、延伸、和演变历史，W3C的基于Solid的WG Charter将在最近提出由AC审查。
+- 沈慧海延续上次关于OpenHarmony WEB引擎的议题。为了克服WEB生态碎片化的问题，为鸿蒙生态开创一个有竞争性的新路，提出了轻量化WEB引擎的概念与技术思路。这次会议因为时间冲突相关专家未能出席，下次沈慧海降邀请专家深入这个议题。
+- 沈慧海提出Wenjing提出的Open Wallet与WEB引擎是什么关系的问题。
+- Wenjing的议题正好回答这个问题，即：Open Wallet可以嵌入一个Framework，可以和提出了轻量化WEB引擎一起，作为新一代高安全、高价值、高私密性应用的框架与引擎。OpenWallet体系架构图和轻量化WEB引擎的架构图非常吻合，提议下次两边深入这个议题。其中界面的定义与标准化是个待回答的问题，希望成为一个输出。沈慧海以后问到怎么交流。建议这些渠道：
+    - 下次WEB3 TSG会议期间双方专家进一步讨论。以后可以在每月例会里跟进。
+    - 9月份：Open Wallet基金会筹划在上海KubeCon/OSS-China期间组织Open Wallet Workshop研讨会，我们可以利用这个机会进行更深层次的交流。
+    - Open Wallet Core Project在OWF正式启动后，可以利用OWF项目的例会和论坛沟通。
+- 张春辉：HarmonyOS对钱包的支持。Wenjing提到一方面是基本的OS安全能力（比如Enclave, Capability Based Security）,另外是安全相关的设备界面（比如指纹、人脸识别、相机、NFC等）。有没有更详细的要求？希望通过下一步的交流明确有哪些。
+- 最后针对上次TSC会议反馈3点建议的跟进
+    - 包含WEB： web engine, web runtime – 已在进行中
+    - 活跃性：技术论坛、讲座（建议我们在Open Wallet Workshop上讲讲WEB engine + OpenWallet）、公众号 （建议在OpenHarmony TSC公众号上发一系列专家分享议题。Wenjing建议Angel今天的WEB3历史介绍作为第一个Topic，Angel主写，Wenjing提供最后如何连接到我们TSG工作的结束语部分。张春辉通过流程和共享文档。
+    - 会议记录：继续使用Github, 等Gitee public account可支持后可建立一个镜像。
+- 下次会议议题：
+    - 请沈慧海联系web engine专家
+    - 请罗夏朴教授计划介绍新议题
+    - 其他议题请大家继续提出
+
+会议计划议题：
+这个月的WEB3 TSG会议是北京时间7日早10点。
+ 
+会议议题暂时建议有这些，大家有没有补充/提议：
+ 
+（1）        Angel介绍一下W3C的WEB3前沿技术论坛。上次会议上慧海提到“WEB3 的定义、技术思路和方向还不太明然”- 希望这次论坛可以有所帮助。
+（2）        沈慧海上次介绍了后续OpenHarmony web方向考虑采用Framework上创新的策略，能不能再进一步介绍讨论一下？比如：是不是基于QuickApps/MiniAPps? 新的Framework功能，支持的协议，比较分析等等？WebAuthn/FIDO2，Web Payment？）在WEB方面可以和OpenWallet基金会合作的地方：
+钱包作为web engine的一个嵌入内核。
+基于web engine的钱包。
+（3）        张春辉：HarmonyOS对钱包的支持（延续上次会议的讨论）
+（4）        Wenjing介绍今年9月筹备上海OpenWallet Workshop，  希望大家加入，并征求意见和反馈。
+（5）        一起讨论今年TSG汇报后的几个反馈意见
+包含： web engine, web runtime
+活跃性：技术论坛、讲座、公众号、直播课等
+会议记录：Github, Gitee public account?
+（6）        下次会议议题征集
+ 
+ 
