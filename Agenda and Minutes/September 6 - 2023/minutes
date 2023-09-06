@@ -1,0 +1,90 @@
+Agenda email:
+九月会议时间是下周三早上10点，现有议题如下。请大家看看有没有其它议题建议。
+ 
+ 
+（1）        上次会议的action items汇报。请李安琪做纪要。
+（2）        请张春辉、赵鹏介绍这次年中务虚会的情况，反馈意见。
+（3）        Wenjing Chu: 信任互联协议 – 开源开发者招募：有没有大学研究人员、开发人员、兴趣小组等愿意加入？
+（4）      九月11-15， W3C TPAC，可讨论议题。
+（5）        九月26-28: 上海开源峰会 workshop，有谁会参加？
+（6）        其它推延了的会议议题：如果有进展请事先报备一下
+OpenHarmony 轻量化WEB引擎专家介绍（请沈惠海负责联系相关专家）。
+请罗夏朴教授计划介绍新议题。
+ 
+Minutes:
+By Angel Li
+
+2023-09-06 Web3 TSG Monthly Meeting请见如下：
+
+Chair: Wenjing Chu
+Attendees：Wenjing Chu，张春晖、沈慧海、罗夏朴、郑黎方、李安琪
+Regrets：赵锋、赵鹏
+
+一、春晖介绍年中务虚会的情况 
+ 
+张春辉：上周在青岛举行的年中务虚会，我们TSG也有去介绍工作。体感是Web3的工作好像目前在国内不是很急迫。现场也收到了很多问题。余枝强对
+开放钱包感兴趣，但是Open Wallet Foundation有哪些企业参加。
+
+Wenjing：OWF网站上有的，包括谷歌等5家董事会机构。后续微软和三星可能也参加。
+
+张春辉：为什么电信公司感兴趣参与？
+
+Wenjing：电信公司参与的原因各有不同。欧洲电信参与的原因是，他们的SIM卡有时会当ID用，是一个重要的功能。电信防伪的需求很强，需要防止电
+话诈骗。
+
+张春辉：上海交大的夏老师问，目前的数字资产有哪些？赵鹏回复了一些内容。
+
+赵鹏微信上分享的务虚会参会感受： WEB3这个课题太新太广了，所以产出和规划没有其他组明确。我觉得咱们最好能确认几个方向和具体的规划，以
+及它对OHM有什么价值。
+OpenWallet我觉得是一个比较明确的方向，可以定义为提升OHM的消费安全能力。
+DRM能力肯定会集成到OHM中，使OHM的设备能满足版权方的要求，播放最早最好的影视节目，也比较明确。
+3D资产的版权管理对行业是有用的，能否集成一个技术能力（比如水印）到OHM中，使OHM在内容生产和消费时更能保护版权，更有竞争力，这个课题我
+会研究下。
+然后总体上，最好是能请对WEB3理论非常有研究的专家，把WEB3中作为开源系统需要构建的能力，梳理个体系，然后我们往里填空，看还缺什么，就找
+相应的单位来一起共建。
+张春辉：贾宁建议Web3和Web一起规划，建议与付明多交流。
+Wenjing：好的，下次会议我们聊一下Web和Web3的交接点。请帮忙邀请一下付明老师，下次会讨论。
+张春辉：北邮的曾志红（？）老师找到我们，对Web3感兴趣。他们在规划一个项目，其中有DID的身份认证机制。后续可以邀请他加入咱们的微信群。
+华东科技大学的网安学院也做钱包安全相关的工作，对Web3也感兴趣，他们和罗夏朴老师也有交流，也可以邀请来参与。这次活动有利于扩大我们TSG
+的影响力。
+
+张春辉：微信公众号的文章计划，可以写一些文章介绍新一代互联网技术介绍等。
+ 
+安琪：除了自己写原创文章，也可以转载一些高质量的TSG工作内容相关的文章，增加内容充实度。
+
+Wenjing Chu: 认识一些作者，可以要他们的技术文章的中文版，我们转发就好。
+
+张春辉：也可以鼓励高校俱乐部，来拆解开源钱包的一些技术难题。会后我和大家分享一下具体内容。
+
+Wenjing Chu: 难题大小应该是什么样的？
+
+张春辉：3-4个学生做一年能攻克的体量。
+ 
+
+二、信任互联协议 – 开源开发者招募：有没有大学研究人员、开发人员、兴趣小组等愿意加入？ 
+
+Wenjing Chu:上个月比较了各种信用机制之间的关系，钱包和协议之间的关系。我们有兴趣实现。想在wallet里面实现一个协议栈，底层是TSP协议，
+上层有credentials等。还包括DID的实现等。希望和大家分享TSP这个协议的进展，这个总结里面有6个方面，1就是DID，后面有些协议概念上的介绍。
+既然这个协议已经出来，希望寻找使用和实现的人，以及测试兼容性。也许可以用在MiniApps上，为MiniApps的认证提供安全性的规范。我的建议是，
+在这个范围内，和高校一起开展合作。
+
+沈慧海：挑战课题的评审时间比较紧了，大家抓紧啊。我来负责技术峰会的揭榜环节，还可以插进去一些内容。9月30日会确定具体课题，10月份会看
+看高校是否感兴趣，11-12月举行峰会。项目明年启动。
+
+安琪：下周W3C的TPAC大会上，周三有两个breakout session可能和我们TSG工作相关，欢迎大家关注和参与： 
+Identity Wallets and the Web：
+https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Fw3c%2Ftpac2023-breakouts%2Fissues%2F31&data=05%7C01%7Cwchu%40futurewei.com%7Ccc0dbc92cc46434b9e8308dbae889770%7C0fee8ff2a3b240189c753a1d5591fedc%7C1%7C0%7C638295673928491197%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=hmCZk329Akz0%2Blq4n1LdkmGsS3lu%2F7TLd65BiuADi%2F8%3D&reserved=0
+Verifiable Credentials and Decentralized Identifiers in action：
+https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Fw3c%2Ftpac2023-breakouts%2Fissues%2F28&data=05%7C01%7Cwchu%40futurewei.com%7Ccc0dbc92cc46434b9e8308dbae889770%7C0fee8ff2a3b240189c753a1d5591fedc%7C1%7C0%7C638295673928491197%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=UPt1wXZJ2cyvUR9INyQ9eXzeZ60SUcSgaX8zxkq3cio%3D&reserved=0
+
+郑黎方：我们有做数字资产的认证和确权，可能属于VC，可以基于这些认证，对钱包提供一些功能上的要求。寰宇信任可以整理一些应用场景的描述。
+
+Wenjing：VC需要先有身份。VC只是一种数据结构，是credentials为主。认证主要和Media type有关系，如果type是视频，可能认证方式完全不同。如
+果数据结构本身没有事先定义，没有schema，就是另外一套技术实现。有人在做一个技术文档，不同的机构和公司所提出的各类实现思路。VC不适合
+streaming media，因为VC的realtime的属性可能不行。我的建议是第一步总结应用，写一个详尽的文档，这样作为一个课题就比较容易。
+
+郑黎方：下一次我们可以分享整理出来的概念性的内容，再看如何推进。
+
+罗夏朴：在尝试在香港搞一下华为高校俱乐部，不确定是否会有很多学生感兴趣。但是我很感兴趣TSG里面讨论的项目。我的研究方向偏软件，感兴趣
+分析一些DID应用的安全性，也有很多 bug bounty的成功经验。
+
