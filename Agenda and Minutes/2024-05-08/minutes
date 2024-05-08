@@ -1,0 +1,20 @@
+Agenda
+
+1. 张春辉：软总线
+
+根据上次的讨论，下面是申请sig的流程如下：
+申请SIG的模板（一个是原模板，一个是对之前我们讨论过的内容做了汇总，wenjing老师可以刷新一下）
+申请SIG的流程：https://gitee.com/openharmony/community/tree/master/sig
+ 
+下一次会议，按照去年讨论的推进计划，我们可以讨论下web3基础设施sig成立的内容。
+各位老师也可以刷新一下，我们ppt的内容。
+
+2. Wenjing Chu: Web3 Fediverse 超级应用
+
+- 以Matrix的设计为基础，引入Open Wallet身份钱包，开发超级应用平台
+- TSP 开源实现项目（OWF）
+- TSP标准草案（TOIP）
+- AI Agent
+
+3. 其他
+
