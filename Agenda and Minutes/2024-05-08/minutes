@@ -23,3 +23,37 @@ Agenda
 
 3. 其他
 
+Minutes (taken by Angel Li):
+
+5月8日WEB3 TSG May Meeting的简单纪要请见如下：
+
+一、软总线项目的工作计划 
+
+关于可信任互联协议推进策略，可以整理出“可信任互联协议”的年度课题，结合TEE发布到高校俱乐部，征集感兴趣的老师；下一步需要描述清楚具
+体要解决的问题，结合TEE给出初步方案，分解基础能力。也需要有组织基础，需要申请成立一个Web3的SIG，建立一个代码仓开始工作，建仓后与高校
+合作，构建基础能力，以支撑年度课题结题。成立SIG和建仓需要一定流程，后续会启动这个流程。
+
+Web3基础设施SIG计划贡献的内容包括用户数据管理与应用、可信互联协议以及数字身份。其中有些内容是基于现有修改，有些是SIG新增的工作内容，
+有些以SDK的方式提供。
+
+新的SIG和课题的关系应该是并行的。可以在OH孵化Web3的基础能力，方便高校俱乐部的相关方向有落地的措施；课题可以通过TSG的评审，推进Web3在
+OH上的落地，也可以和相关的组织建立联系。
+
+目前分布式TEE有个SIG，主要工作是资源管理和IEE连接。我们可以通过TEE的场景，落地TSP协议，同时带动其他Web3基础设施的完善。
+
+新的SIG计划实现的内容可以包括新的基于DID、TSP、VC及OWF的体系，需要看看是否可以进一步借助OWF和其他开源项目。
+
+高校俱乐部可以是我们的一个开发资源，也可以有其他方面的开发资源。寰宇信任有兴参与一些资源的开发。
+
+春晖后续会编写一个腾讯文档来协同，腾讯文档上会列一些分工，下次开会之前大家填写一下可以做的内容。
+
+Wenjing分享关于TSP的进展，标准的细节和代码都有了，详见以下文档。
+
+https://github.com/trustoverip/tswg-tsp-specification
+https://www.trustoverip.org/blog/2023/08/31/mid-year-progress-report-on-the-toip-trust-spanning-protocol/
+https://docs.google.com/presentation/d/13CiM1qJxLWT50PK7tOd0jVO4L91yPwR47cigh5JkaEs/edit#slide=id.p
+
+二、在美国开源项目的进展
+Wenjing：目标是出一个 killer app。可以以Matrix的设计为基础，引入 Open Wallet身份钱包，开发基于Web3的去中心化超级应用平台。可以基于
+TSP的开源实现项目，利用TSP协议等。
+
